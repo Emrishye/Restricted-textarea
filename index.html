@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simple textarea with features for tracking and displaying the number of characters typed by the user."
+    />
+    <meta
+      name="keywords"
+      content="Restricted textarea, HTML, CSS, JS, Javascript, Roadmap"
+    />
+    <meta name="author" content="Emran" />
+    <title>Restricted textarea</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="wrapper">
+        <h1 class="head">Write your Message</h1>
+        <div class="text">
+          <textarea
+            id="mytextarea"
+            rows="10"
+            cols="50"
+            placeholder="Your message"
+            maxlength="20"
+          ></textarea>
+          <p class="char-count" id="charcount">0 / 250</p>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
